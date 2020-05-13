@@ -88,109 +88,129 @@ def main():
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Scissors beats lizard! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'lizard' and comp_choice == 'paper':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Lizard eats paper! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'rock' and comp_choice == 'lizard':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Rock crushes lizard! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'paper' and comp_choice == 'spock':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Paper disproves Spock! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'lizard' and comp_choice == 'spock':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Lizard poison Spock! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'spock' and comp_choice == 'rock':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Spock vaporizes rock! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'spock' and comp_choice == 'scissors':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Spock smashes scissors! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'lizard' and comp_choice == 'scissors':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Scissors beats lizard! CPU WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'paper' and comp_choice == 'lizard':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Lizard eats paper! CPU WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'lizard' and comp_choice == 'rock':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Rock crushes lizard! CPU WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'spock' and comp_choice == 'paper':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Paper disproves Spock! CPU WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'spock' and comp_choice == 'lizard':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Lizard poison Spock! CPU WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'rock' and comp_choice == 'spock':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Spock vaporizes rock! CPU WIN!\n")
                 comp_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'scissors' and comp_choice == 'spock':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Spock smashes scissors! CPU WIN!\n")
                 comp_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'scissors' and comp_choice == 'lizard':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Scissors decapitates lizard! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'lizard' and comp_choice == 'paper':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Lizard eats paper! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'rock' and comp_choice == 'lizard':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Rock crushes lizard! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'paper' and comp_choice == 'spock':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Paper disproves Spock! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'lizard' and comp_choice == 'spock':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Lizard poison Spock! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'spock' and comp_choice == 'rock':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Spock vaporizes rock! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             elif user_choice == 'spock' and comp_choice == 'scissors':
                 print(f"\nYou have selected {user_choice.title()}")
                 print(f"Computer choice is {comp_choice.title()}")
                 print("Spock smashes scissors! You WIN!\n")
                 user_score += 1
+                print(f"\t###> The Score is: <###\n\t     Human:{user_score}    AI:{comp_score}\n")
             else:
                 print("Ops wrong entry. Try again.")
-        print(f"\t###> The Score is: <###\n\t   Human:{user_score}    AI:{comp_score}\n")
 
 
 intro()
